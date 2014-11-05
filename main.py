@@ -12,3 +12,5 @@ if z=="+":
 elif z=="*":
     w=y*x
 print(w)
+
+print("hello")
