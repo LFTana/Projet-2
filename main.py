@@ -3,7 +3,7 @@
 ##############################
 
 w=0
-x=(int(input("Entrez un nombre Héxadécimal : ")))
+x=((input("Entrez un nombre Héxadécimal : ")))
 # je dois pouvoir rentrer A2 par exemple comme nombre ...
 y=(int(input("Entrez un nombre Héxadécimal : ")))
 z=(str(input("Entrez un signe de calcul: ")))
