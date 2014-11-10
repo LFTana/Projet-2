@@ -1,7 +1,7 @@
 ##############################
 ###Caculatrice Hexadécimale###
 ##############################
-
+(Il faut utiliser hex() qui permet de convertir un nombre decimal en hexadecimal sur python)
 w=0
 x=((input("Entrez un nombre Héxadécimal : ")))
 # je dois pouvoir rentrer A2 par exemple comme nombre ...
