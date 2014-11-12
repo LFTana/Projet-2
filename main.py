@@ -2,8 +2,8 @@
 ###Caculatrice Hexadécimale###
 ##############################
 
-b=((input("Entrez un nombre Héxadécimal : ")))
-c= '0x'
+b=((input("Entrez un nombre Héxadécimal : ")))  ##on entre le nomre hexadécimal à additionner ou multiplier## on le définit b##
+c= '0x'                     
 d=int(c+b,16)
 
 e=(str(input("Entrez un signe de calcul: ")))
