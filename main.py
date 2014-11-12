@@ -16,5 +16,7 @@ if e=="+":
 elif e=="*":
     a=d*g
 
-print(hex(a))    # la commande hex nous permet de définir tous les termes nécessaires au calcul, on évite ainsi décrire tous les nombres en héxadécimal##
-print((a))
+chr = str(hex(a))  
+chr=chr[2:100000000000000000]
+
+print("Le résultat vaut ",chr, " en Héxadécimal et ",a, " en Décimal.")    # la commande hex nous permet de définir tous les termes nécessaires au calcul, on évite ainsi d'écrire tous les nombres en héxadécimal##
