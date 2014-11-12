@@ -2,7 +2,6 @@
 ###Caculatrice Hexadécimale###
 ##############################
 
-
 b=((input("Entrez un nombre Héxadécimal : ")))
 c= '0x'
 d=int(c+b,16)
