@@ -19,6 +19,6 @@ elif e=="*":                     ## Sinon si e est le signe *
 
 #Sortie:
 chr = str(hex(a))                 ## le résultat hexadécimal de a est considéré comme une chaîne : chr
-chr=chr[2:100000000000000000]     ## on décompose chr, on aura donc à l'affichage toutes les valeurs sauf les deux premières "0x"
+chr=chr[2:]     ## on décompose chr, on aura donc à l'affichage toutes les valeurs sauf les deux premières "0x"
 
-print("Le résultat vaut ",chr, " en Héxadécimal et ",a, " en Décimal.")    ## On affiche le résultat chr qui est en hexadécimal, et a qui est en décimal
+print("Le résultat vaut ",chr.upper(), " en Héxadécimal et ",a, " en Décimal.")    ## On affiche le résultat chr qui est en hexadécimal, et a qui est en décimal
