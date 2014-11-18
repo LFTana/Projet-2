@@ -3,7 +3,7 @@
 ##############################
 
 #Initialisation:
-b=((input("Entrez un nombre Héxadécimal : ")))  ## On entre un nombre hexadécimal, on le définit b
+b=((input("Entrez un nombre Héxadécimal : ")))  ## On commence par définir l'hexadécimal d
 d=int(b,16)                                     ## d prend la valeur b comme étant un nombre entier hexadécimal en base 16
 
 e=(str(input("Entrez un signe de calcul, + ou * : ")))  ## On définit la chaîne de calcul e, e vaut + ou *
